@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br><br>
+        <label for="phone">Phone No.:</label>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+        <label for="dob">D.O.B:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <br><br>
+        <label for="languages-known">Languages Known:</label>
+        <br><br>
+        <input type="checkbox" id="english" name="language" value="english">
+        <label for="english">English</label>
+        <input type="checkbox" id="hindi" name="language" value="hindi">
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" id="kannada" name="language" value="kannada">
+        <label for="kannada">Kannada</label>
+        <br><br>
+        <label for="experience">Experience:</label>
+        <select id="experience" name="experience">
+            <option value="1 year">1 year</option>
+            <option value="2 years">2 years</option>
+        </select>
+        <br><br>
+        <label for="file">File:</label>
+        <input type="file" id="file" name="file">
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    //clock Website using html and CSS
+    <div class="clock">
+        <div class="hour"></div>
+        <div class="minute"></div>
+        <div class="second"></div>
+        <div class="day"></div>
+        <div class="month"></div>
+    </div>
+
+    <a href="pwswebpage.html" target="_blank">Back to PWS Webpage</a>
+</body>
+</html>
